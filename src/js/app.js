@@ -26,7 +26,6 @@ btnDireita.addEventListener("click", () => {
         btnDireita.click();
     }, 3000);
 })
-
 btnEsquerda.addEventListener("click", () => {
     indiceAtual--;
     if (indiceAtual < 0) {
