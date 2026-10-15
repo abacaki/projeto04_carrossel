@@ -1,0 +1,59 @@
+:root {
+    --azulclaro: rgb(144, 144, 244);
+    --azul: rgb(67, 67, 150);
+    --vermelho: rgb(196, 10, 10);
+    --vinho: rgb(99, 12, 12);
+    --cinza: gray;
+    --verity: #FFFF00;
+    --imagem1: url(./images/litwick.jpg);
+    --imagem2: url(./images/lampent.jpg);
+    --imagem3: url(./images/chandelure.jpg);
+}
+
+body {
+    width: 97.7vw;
+    min-width: 243px;
+    padding: 0;
+    margin: 0;
+    height: 98.3vh;
+    border: 0.3rem solid;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.03rem solid;
+    background: var(--cinza);
+    width: 70%;
+    height: 90%;
+}
+
+#btnEsquerda,
+#btnDireita {
+    cursor: pointer;
+    padding: 1rem;
+    user-select: none;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+#carrossel {
+    width: 100%;
+    height: 80%;
+}.fundo {
+    background-image: var(--fundo);
+    background-size: cover;
+    background-position: center;
+    
+}
