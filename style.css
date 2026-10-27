@@ -49,6 +49,5 @@ main {
 }.fundo {
     background-image: var(--fundo);
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;  
 }
